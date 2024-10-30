@@ -1,0 +1,254 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ /* Center all content */
+.insai-container {
+  background: #fff;
+    padding: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 1px solid #d0d3db !important;
+}
+.insai-gif-container {
+  display: flex;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+.insai-gif {
+  border: 1px solid #ccc;
+  max-width: calc(100% - 100px);
+  height: 500px;
+}
+.insai-gif-half {
+  max-width: calc(50% - 100px);
+  margin-right: 25px;
+}
+.insai-page-head {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  justify-content: space-between;
+}
+.insai-head-logo {
+  display: flex;
+  align-items: center;
+}
+#insaiHelpPage .insai-row {
+  background: #f6f6f6;
+  border: 1px solid #d0d3db;
+  border-radius: 5px;
+  padding: 25px;
+}
+.insai-overview-container {
+    background: #ececf4;
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid #d0d3db;
+    margin-bottom: 40px !important;
+}
+
+.insai-question {
+  font-weight: bold;
+}
+
+.insai-answer {
+  padding: 0;
+  font-size: 13px;
+}
+ul.insai-overview-questions-list {
+  list-style: inside;
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+.insai-welcome-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.insai-welcome-row {
+  text-align: center;
+}
+.insai-welcome-logo-container { 
+  text-align: center;
+} 
+.insai-welcome-text-container { 
+  text-align: center; 
+}
+.insai-welcome-form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.insai-welcome-form-container label { 
+  display: block; 
+  margin-bottom: 10px; 
+} 
+.insai-welcome-form-container input[type="text"] { 
+  width: 40%;
+  margin-bottom: 10px; 
+}
+.insai-primary-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.insai-danger-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.insai-settings-container {
+  padding: 30px;
+}
+.insai-settings-header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 30px;
+} 
+.insai-settings-logo { 
+  display: flex;
+  align-items: center;
+}
+.insai-icon {
+  width: 100px;
+  margin-right: 10px;
+}
+.insai-settings-buttons { 
+  display: flex;
+  align-items: center;
+}
+
+.insai-input-group {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+.insai-input-label {
+  width: 100px; /* Adjust width as needed */
+  margin-right: 10px; /* Adjust spacing as needed */
+  font-weight: 600;
+  line-height: 1.3;
+  font-size: 15px;
+}
+
+.insai-input-field {
+  flex: 1;
+}
+
+.insai-small-text {
+  /* Add styles for the small text below the input */
+  font-size: 12px;
+  color: #888;
+  margin-left: 110px;
+}
+
+.insai-overview {
+  background: #f6f6f6;
+  border: 1px solid #d0d3db;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+/* Media query for screens smaller than 700px */
+@media screen and (max-width: 700px) {
+  .insai-settings-header {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .insai-settings-buttons {
+    margin-top: 20px; /* Add space between sections */
+  }
+
+  .insai-input-group {
+    width: 100%; /* Take full width */
+  }
+}
+
+  
+  /* Center content within main container */
+  .main-container {
+    text-align: center;
+    background: white;
+    padding: 50px;
+  }
+  
+  /* Add space under each div */
+  .main-container > div {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the logo */
+  .logo-container img {
+    width: 400px;
+  }
+  
+  /* Style the text container */
+  .text-container p {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the form */
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style the labels and inputs */
+  .form-container label {
+    margin-bottom: 10px;
+  }
+
+  .form-container input{
+    width: 60%;
+  }
+  
+.form-container input, .form-container button {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+  
+.form-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.custom-select-control {
+    padding: 10px;
+}
+
+.custom-generate-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
